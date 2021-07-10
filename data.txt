@@ -1,0 +1,208 @@
+11 [ss] 1vp * research
+8 [e] * media archives
+13 >=9% [a] -1pi +2mi * livestock
+36 [*!] h h w w * giant ice asteroid
+23 [e] 2vp * earth catapult
+23 >=12% [cb] -1ni +4mi 1vp * open city
+15 [n] * energy saving
+5 [s*!] * technology demonstration
+26 >=4w [cb] -2ni +5mi * capital
+1 [!] * sabotage
+12 [s] * artificial photosynthesis
+23 [*!] w w ice asteroid
+12 [*] * security fleet
+10 [ea] * pets
+12 >=1g [ap] * ecological zone
+16 >=-6C [p] +1pi +2mi 2vp * tundra farming
+12 [b] -1pi +4mi 1vp food factory
+6 >=2c +1mi 1vp rad-suits
+8 >=3[s] [n] +1ni +1mi 1vp lightning harvest
+36 [e*!] w * 2vp large convoy
+11 >=1[p] >=1[m] >=1[a] [pma] 3vp advanced ecosystems
+18 >=2[s] [nb] +3ni 1vp tectonic stress power
+21 >=3[s] [sb] -1ni 1vp * ai central
+27 [*b] +1ti 2vp * space elevator
+10 [seb] 1vp * olympus conference
+8 [sb] * 1vp mars university
+7 [!] w * -1vp flooding
+13 [sb] 1vp * medical lab
+15 [j*] +1ti 1vp vesta shipyard
+11 [cb] -1ni +3mi -2vp * corporate stronghold
+6 [nb] +1ni -1vp * heat trappers
+24 <=7% [cb] -1ni +3mi * 1vp domed crater
+13 >=5% * 1vp zeppelins
+4 >=6% [nb] * +2ni -1vp biomass combustors
+8 [b] -1ni tr tr rad-chem factory
+2 * insulation
+12 [mb] +1ni +1si industrial microbes
+18 [n] * power grid
+5 [b] -2ni +1pi tr magnetic field dome
+4 [b] +1si mine
+10 [nb] -2mi +3ni nuclear power
+20 [b] +4hi * mohole area
+6 [b] -1ni +2si building industries
+11 [b] -1ni +4hi ghg factories
+4 [b] * mining area
+16 <=9% [cb] -1ni +3mi * cupola city
+8 >=4% [sm] * ghg producing bacteria
+13 [sm] * regolith eaters
+9 [sm] * viral enhancers
+13 [cb] -1ni -2mi * immigrant city
+8 >=5[s] [sn] * +6ni mass converter
+18 [scb] * research outpost
+11 [sb] * development center
+11 [!] w subterranean reservoir
+5 [!] * mineral deposit
+16 [e*!] w * imported hydrogen
+23 [e*!] tr * imported nitrogen
+2 [s!] * invention contest
+25 [b] -2ni +2si +1ti o o strip mine
+13 [nb] +1ni h deep well heating
+10 >=-10C [p] +2pi * bushes
+4 >=3w [p] * +1pi moss
+23 [pb] +2mi g * protected valley
+9 [b] * mining rights
+18 [cb] -2ni +2si * underground city
+1 [!] * land claim
+23 [*!] o w * towing a comet
+21 [*!] h w * comet
+27 [*!] h h * big asteroid
+11 [m] * nitrite reducing bacteria
+11 [b] * equatorial magnetizer
+9 [s] * inventors' guild
+10 [e] +3mi acquired company
+9 [p] +1pi adapted lichen
+11 >=-11C [p] +1pi * grass
+10 >=5w [p] * +2pi algae
+6 [pb] * greenhouses
+10 [cb] -1pi +2mi * urbanized area
+6 [e] +2mi sponsors
+6 [b] -1ni +1ti +1mi fuel factory
+13 [en] -2mi +2hi +2ni lunar beam
+9 [s] * robotic workforce
+11 [nb] +2ni geothermal power
+18 [cb] -1ni +3mi * noctis city
+1 [nb] -1mi +1ni fueled generators
+7 [nb] -1mi +2ni peroxide power
+15 >=2[s] [p] g plantation
+3 +1hi micro-mills
+11 [s*n] +1ni * solar wind power
+5 * protected habitats
+9 [s] * advanced alloys
+6 [s] * standard technology
+31 [e*] +5mi * immigration shuttles
+6 >=6% [a] * small animals
+16 [b] -1ni +4mi * commercial district
+12 >=3[s] [s] +2mi 2vp gene repair
+12 >=4C [p] g * 1vp mangrove
+9 [b] -1ni +1pi 1vp soil factory
+13 [b] -2hi +3mi 2vp tropical resort
+8 >=3w [n] +1ni 1vp wave power
+25 [*c] +1ti * 3vp phobos space haven
+8 [b] * 1vp rover construction
+41 [j*] +2ti +2mi * io mining industries
+8 >=-8C [!] w permafrost extraction
+16 >=4C [p] +2mi +2pi * 2vp farming
+1 [!] * ceo's favorite project
+12 >=4w [nb] +2ni 1vp great dam
+6 >=-14C [p] +1pi heather
+18 >=0C w w 2vp lake marineris
+1 [!] * hired raiders
+14 [*!] h * asteroid
+4 [e] * -1mi business network
+4 >=-14C [m] * symbiotic fungus
+1 [m!] * virus
+14 [!] tr tr release of inert gases
+3 <=6% [s] * search for life
+7 [b] +1ti titanium mine
+18 [b] * aquifer pumping
+6 >=7% [nb] +1ni 1vp windmills
+9 [e*!] +2hi import of advanced ghg
+0 [!] -1vp * indentured workers
+7 >=-24C [p] +1pi lichen
+25 [j*] * water import from europa
+1 [!] * local heat trapping
+6 [s*] 1vp trans-neptune probe
+9 >=6% [m] * insects
+17 >=6w [p] +2mi +3pi 1vp * kelp farming
+6 [e] * media group
+10 [*] * satellites
+33 [j*] 2vp * terraforming ganymede
+13 >=-4C [p] +3pi 1vp trees
+14 >=11% [a] * predators
+5 >=3% [m] * decomposers
+16 >=-12C [pb] +2mi 1vp * eos chasma national park
+3 [e!] -1mi * investment loan
+15 -2mi +3hi w black polar dust
+10 [e] * h h -2vp nuclear zone
+9 >=4% [m] * ants
+12 [sb] * physics complex
+14 >=7[s] [s] * 3vp anti-gravity technology
+28 >=2% [j*] +2hi +2pi 2vp methane from titan
+3 >=0C * caretaker contract
+12 <=-12C [p] * arctic algae
+10 >=13% [a] * birds
+7 [e!] * business contacts
+3 [n*] * space mirrors
+11 >=7% [s] 2vp breathing filters
+12 >=8% [a] * herbivores
+20 [j*c] * ganymede colony
+8 >=4% [m] * worms
+3 -1ni +2mi -1vp * hackers
+12 [*] * toll station
+15 [b] * steelworks
+5 >=2[n] [n] * +1ni power supply consortium
+31 [*!] h h h deimos down
+24 [j*] +3mi 2vp callisto penal mines
+4 [s!] * special design
+2 <=3w 1vp dust seals
+3 [n] +1ni -1vp * energy tapping
+9 >=2C [a] * fish
+10 >=-20C [pb] +1mi 1vp * noctis farming
+8 [e] * cartel
+13 >=4[s] [sn] +4ni * quantum extractor
+6 [b] -1ni +3hi carbonate processing
+7 [*] * optimal aerobraking
+4 [nb] * power infrastructure
+5 >=2C [!] w ice cap melting
+9 <=4% [sb] * +1mi 1vp natural preserve
+17 [n*] +3ni giant space mirror
+12 [j*] * 1vp miranda resort
+6 <=-18C [m] +1pi archaebacteria
+15 >=-6C [b] w * 1vp artificial lake
+24 >=5[s] [e*!] 4vp interstellar colony ship
+31 [*!] * +1pi tr tr h nitrogen-rich asteroid
+8 <=5% [jb] 2vp colonizer training camp
+7 [e!] tr tr -2vp bribed committee
+14 >=2[n] [snb] +3ni fusion power
+10 >=5% [*] -1ni +2mi 1vp * shuttles
+32 >=1[j] [j*n] +3hi +3ni 1vp beam from a thorium asteroid
+10 [*] 1vp * space station
+12 [s] 1vp * adaptation technology
+30 [j*] +2ti 2vp asteroid mining
+6 [b] * underground detonations
+20 [b] -4ni +2pi tr tr tr magnetic field generators
+7 [e*!] +1hi * imported ghg
+12 [!] o * mining expedition
+11 [nb] +1ni 1vp solar power
+15 [*!] w * convoy from europa
+13 [b] * ore processor
+26 [*!] * +3hi +1pi aerobraked ammonia asteroid
+1 [e] * earth office
+13 >=1ti [j] * +1ti 1vp asteroid mining consortium
+9 [s*] 1vp * lagrange observatory
+17 <=8% [b] -1ni 1vp * electro catapult
+13 <=-10C [m] * extreme-cold fungus
+13 [b] * martian rails
+18 [!] h h * lava flows
+11 >=3w -1mi * +2pi cloud seeding
+16 <=-14C [sm] +2pi designed microorganisms
+8 >=3w [p] +2pi * nitrophilic moss
+4 [b] * industrial center
+12 >=2w [b] * water splitting plant
+4 [nb] +1ni power plant
+11 [s] * restricted area
+4 [m] * tardigrades
+6 >=1si +1si * great escarpment consortium
+35 [*] +7hi soletta
+11 [b] * ironworks

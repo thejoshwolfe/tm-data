@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import itertools
 
 tag_defs = {
     "!": "Event",
@@ -45,6 +46,15 @@ income_defs = {
     "n": "Energy",
     "h": "Heat",
 }
+income_order = [
+    income_defs["m"],
+    income_defs["s"],
+    income_defs["t"],
+    income_defs["p"],
+    income_defs["n"],
+    income_defs["h"],
+]
+
 terraforming_defs = {
     "h": "Raise the Heat",
     "w": "Place an Ocean Tile",
@@ -83,23 +93,29 @@ class Card:
             s += " (incomplete)"
         return s
 
-    tsv_columns = [
-        "name",
-        "cost",
-    ] + list(sorted(tag_defs.values(), key=tag_order.index)) + [
+    tsv_column_groups = [
+        [
+            "name",
+            "cost",
+        ],
+        list(sorted(tag_defs.values(), key=tag_order.index)),
+        list(sorted(income_defs.values(), key=income_order.index)),
     ]
     def to_tsv(self):
-        return "\t".join(
-            {
+        return "\t".join(itertools.chain(
+            ({
                 "name": self.name,
                 "cost": str(self.cost),
-                **{
-                    name: str(sum(1 for tag in self.tags if tag == name))
-                    for name in tag_defs.values()
-                }
-            }[column]
-            for column in Card.tsv_columns
-        )
+            }[column] for column in Card.tsv_column_groups[0]),
+            ({
+                name: str(sum(1 for tag in self.tags if tag == name))
+                for name in tag_defs.values()
+            }[column] for column in Card.tsv_column_groups[1]),
+            ({
+                name: str(sum(amount for n, amount in self.income if n == name))
+                for name in income_defs.values()
+            }[column] for column in Card.tsv_column_groups[2]),
+        ))
 
 
 def parse_stream(stream):
@@ -145,7 +161,7 @@ def parse_stream(stream):
 def main():
     with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data.txt")) as f:
         cards = parse_stream(f)
-    print("\t".join(Card.tsv_columns))
+    print("\t".join(itertools.chain(*Card.tsv_column_groups)))
     print("\n".join(card.to_tsv() for card in cards))
 
 if __name__ == "__main__":

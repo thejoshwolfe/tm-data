@@ -56,12 +56,26 @@ income_order = [
 ]
 
 terraforming_defs = {
-    "h": "Raise the Heat",
-    "w": "Place an Ocean Tile",
-    "o": "Raise the Oxygen",
-    "tr": "Raise your TR",
-    "g": "Place a Greenery Tile",
+    "h": "Heat",
+    "w": "Ocean",
+    "o": "Oxygen",
+    "tr": "TR",
+    "g": "Greenery",
 }
+terraforming_long_names = {
+    terraforming_defs["h"]: "Raise the Heat",
+    terraforming_defs["w"]: "Place an Ocean Tile",
+    terraforming_defs["o"]: "Raise the Oxygen",
+    terraforming_defs["tr"]: "Raise your TR",
+    terraforming_defs["g"]: "Place a Greenery Tile",
+}
+terraforming_order = [
+    terraforming_defs["tr"],
+    terraforming_defs["h"],
+    terraforming_defs["w"],
+    terraforming_defs["o"],
+    terraforming_defs["g"],
+]
 
 class Card:
     def __init__(self, cost):
@@ -86,7 +100,7 @@ class Card:
                 )
             for x in self.income)
         if self.terraforming:
-            s += ", " + ", ".join(self.terraforming)
+            s += ", " + ", ".join(terraforming_long_names[n] for n in self.terraforming)
         if self.vps:
             s += ", {}VPs".format(self.vps)
         if not self.is_complete:
@@ -100,6 +114,7 @@ class Card:
         ],
         list(sorted(tag_defs.values(), key=tag_order.index)),
         list(sorted(income_defs.values(), key=income_order.index)),
+        list(sorted(terraforming_defs.values(), key=terraforming_order.index)),
     ]
     def to_tsv(self):
         return "\t".join(itertools.chain(
@@ -115,6 +130,10 @@ class Card:
                 name: str(sum(amount for n, amount in self.income if n == name))
                 for name in income_defs.values()
             }[column] for column in Card.tsv_column_groups[2]),
+            ({
+                name: str(sum(1 for n in self.terraforming if n == name))
+                for name in terraforming_defs.values()
+            }[column] for column in Card.tsv_column_groups[3]),
         ))
 
 
